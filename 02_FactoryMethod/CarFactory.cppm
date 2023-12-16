@@ -5,13 +5,13 @@ module;
 export module car_factory;
 export import car;
 
-/* La clase creadora declara el mÈtodo f·brica que devuelve nuevos objetos
-	de producto. Es importante que el tipo de retorno coincida con la
-	interfaz de producto.
-	Se puede declarar el patrÛn Factory Method como abstracto para frozar 
-	a todas las subclases a implementar sus propias versiones del mÈtodo.
-	Como alternativa, el mÈtodo f·brica puede devolver alg˙n tipo 
-	de producto por defecto.*/
+/* La clase creadora declara el m√©todo f√°brica que devuelve nuevos objetos
+de producto. Es importante que el tipo de retorno coincida con la
+interfaz de producto.
+Se puede declarar el patr√≥n Factory Method como abstracto para frozar 
+a todas las subclases a implementar sus propias versiones del m√©todo.
+Como alternativa, el m√©todo f√°brica puede devolver alg√∫n tipo 
+de producto por defecto.*/
 export class CarFactory
 {
 public:
@@ -37,7 +37,7 @@ private:
 };
 
 /* Los creadores concretos sobrescriben el Factory Method base
-	de modo que devuelvan un tipo diferente de producto. */
+de modo que devuelvan un tipo diferente de producto. */
 export class FordFactory : public CarFactory
 {
 protected:
