@@ -1,8 +1,8 @@
 #include <string>
 export module car;
 
-/* El producto declara la interfaz, que es común a todos los objetos
-	que puede producir la clase creadora y sus subclases. */
+/* El producto declara la interfaz, que es comÃºn a todos los objetos
+que puede producir la clase creadora y sus subclases. */
 export class ICar
 {
 public:
@@ -11,7 +11,7 @@ public:
 };
 
 /* Los productos concretos son distintas implementaciones de la 
-	interfaz de producto. */
+interfaz de producto. */
 export class Ford : public ICar
 {
 public:
